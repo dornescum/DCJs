@@ -1,0 +1,151 @@
+.card-main {
+    background-color: var(--clr-white);
+    cursor: pointer;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    color: var(--clr-grey-11);
+    padding: 45px 15px;
+    border: 1px solid var(--clr-gr1-12);
+}
+
+.card-main:hover {
+    background-color: var(--clr-mc);
+    color: var(--clr-white);
+    /*color: #fff !important;*/
+}
+.card-main a{
+    color: var(--clr-gr1-11);
+}
+/*fixme culoare icon*/
+.card-main i{
+    color: var(--clr-blueHover);
+}
+.card-main:hover i{
+    color: white;
+}
+/*.card-main h3{*/
+/*    color: var(--clr-white);*/
+/*    padding: 10px 0;*/
+/*}*/
+/*.card-main h3:hover{*/
+/*    color: var(--clr-gr1-11) !important;*/
+/*}*/
+.card-main p{
+    padding: 15px 0;
+}
+/*fixme*/
+/*.card-main i{*/
+/*   color: white;*/
+/*}*/
+/*.card-main i:hover{*/
+/*   color: blue!important;*/
+/*}*/
+
+
+
+
+/*.card-href{*/
+/*    background: var(--clr-white) !important ;*/
+/*}*/
+
+
+/*.card-icons {*/
+/*    color: var(--clr-white);*/
+/*}*/
+
+/*.card-icons:hover {*/
+/*    color: var(--clr-mc);*/
+/*}*/
+/*.card-title{*/
+/*    color: var(--clr-white);*/
+/*}*/
+/*.card-title:hover{*/
+/*    color: var(--clr-gr1-11);*/
+/*}*/
+
+.card-judete{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-4);
+    margin: 5px 10px 40px 10px;
+    padding: 0 15px;
+    box-shadow: var(--light-shadow);
+}
+.card-judete:hover{
+    box-shadow: var(--dark-shadow);
+}
+@media screen and (max-width: 992px){
+    .card-judete{
+        width: 140px;
+        height: 140px;
+
+    }
+}
+@media screen and (max-width: 380px){
+    .card-judete{
+        width: 110px;
+        height: 110px;
+    }
+}
+@media screen and (max-width: 340px){
+    .card-judete{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+/*@media screen and (max-width: 380px){*/
+/*    .card-judete{*/
+/*        width: 150px;*/
+/*        height: 150px;*/
+
+/*    }*/
+/*}*/
+
+.feature-card{
+    position: relative;
+    text-align: center;
+}
+.feature-card .icon-card{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 95%;
+    z-index: 1;
+    opacity: .05;
+    font-size: 80px;
+}
+
+
+
+.card-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.hidden{
+    display: none;
+}
+/*.active {*/
+/*    display: block !important;*/
+/*}*/
+/*.display-judete{*/
+/*    display: block;*/
+/*}*/
+.showLinks{
+    display: none !important;
+}
+@media screen and (max-width: 992px) {
+    .display-judete{
+        display: none !important;
+    }
+    /*.showLinks{*/
+    /*    display: block;*/
+    /*}*/
+}
