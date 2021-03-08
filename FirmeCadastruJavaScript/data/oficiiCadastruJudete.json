@@ -1,8 +1,8 @@
-{
-  "judete": [
+
+   [
     {
       "judet": "Alba",
-      "adresa": "jilava 22",
+      "adresa": "jilava 21",
       "coordonate": "46.077701,23.566273",
       "telefon": "07252525",
       "email": "rest@rest.com",
@@ -22,7 +22,8 @@
         "joi": "10-12",
         "vineri": "11-16"
       },
-      "id": 1
+      "id": 1,
+      "link": "index.html"
     },
     {
       "judet": "Arad",
@@ -46,8 +47,33 @@
         "joi": "10-12",
         "vineri": "11-16"
       },
-      "id":2
-    }
-  ],
-  "test": "un test"
-}
+      "id":2,
+      "link": "index.html"
+    },
+     {
+       "judet": "Arges",
+       "adresa": "jilava 23",
+       "coordonate": "46.077701,23.566273",
+       "telefon": "07252525",
+       "email": "rest@rest.com",
+       "fax": "07252525",
+       "website": "ceva.com",
+       "programPublic": {
+         "luni": "10-12",
+         "marti": "09-12",
+         "miercuri": "11-13",
+         "joi": "10-12",
+         "vineri": "11-16"
+       },
+       "programAutorizati": {
+         "luni": "10-16",
+         "marti": "09-16",
+         "miercuri": "11-13",
+         "joi": "10-12",
+         "vineri": "11-16"
+       },
+       "id":3,
+       "link": "index.html"
+     }
+  ]
+

@@ -235,8 +235,6 @@
                 }
             });
         }
-
-
         /*------------------------------------
             12. countup
         --------------------------------------*/
@@ -280,154 +278,11 @@
 
 })(jQuery);
 
-// extra
-// nume site
-// document.title = 'Firme Cadastru'
-//
-// import Testimonials from "./data/testimonials.js";
-//
-// const reviewsCarousel1 =document.getElementById('review1')
-// const reviewsCarousel2 =document.getElementById('review2')
-// const reviewsCarousel3 =document.getElementById('review3')
-// const numeReview1 = document.getElementById('numeReview1')
-// const numeReview2 = document.getElementById('numeReview2')
-// const numeReview3 = document.getElementById('numeReview3')
-// window.addEventListener('DOMContentLoaded', function (){
-//     let primulReview = Testimonials;
-//     reviewsCarousel1.innerHTML = primulReview[0].text;
-//     reviewsCarousel2.innerHTML = primulReview[1].text;
-//     reviewsCarousel3.innerHTML = primulReview[2].text;
-//     numeReview1.innerHTML = primulReview[0].nume;
-//     numeReview2.innerHTML = primulReview[1].nume;
-//     numeReview3.innerHTML = primulReview[2].nume;
-// })
-// import footer from "js/data/footer"
 
-// template
-// const template = document.createElement('template');
-// template.innerHTML = `
-//   <style>
-//   .footer-card {
-//     border-top: 1px solid rgba(0, 0, 0, 0.08);
-//     font-size: 15px;
-// }
-// .footer-card .container{
-//     width: 100%;
-//   padding-right: 15px;
-//   padding-left: 15px;
-//   margin-right: auto;
-//   margin-left: auto;
-// }d
 
-// .footer-card .container .row{
-//  display: -ms-flexbox;
-//   display: flex;
-//   -ms-flex-wrap: wrap;
-//   flex-wrap: wrap;
-//   margin-right: -15px;
-//   margin-left: -15px;
-// }
-//
-// .footer-card ul {
-// margin-top: 0;
-// margin-bottom: 1rem;
-// }
-// li {
-// list-style: none;
-// }
-// a {
-// color: #6f6f6f;
-// text-decoration: none;
-// transition-timing-function: ease-in-out;
-// -ms-transition-timing-function: ease-in-out;
-// -moz-transition-timing-function: ease-in-out;
-// -webkit-transition-timing-function: ease-in-out;
-// -o-transition-timing-function: ease-in-out;
-// transition-duration: .2s;
-// -ms-transition-duration: .2s;
-// -moz-transition-duration: .2s;
-// -webkit-transition-duration: .2s;
-// -o-transition-duration: .2s;
-// }
-// a:hover{
-// color: blue;
-// }
-//  .col-lg-4 {
-//     -ms-flex: 0 0 33.333333%;
-//     flex: 0 0 33.333333%;
-//     max-width: 33.333333%;
-//   }
-// @media screen and (max-width: 767px) {
-//     .footer-card .list-style-1 li {
-//         padding: 0 0 5px 0;
-//     }
-//     .footer-card .list-style-1 li:last-child {
-//         padding: 0;
-//     }
-// }
-//
-//   </style>
-//
-//  <div class="footer-card">
-//             <div class="container">
-//                 <div class="row">
-//                     <div class="col-lg-4  sm-margin-30px-bottom">
-//
-//                         <ul class="col-center">
-//                             <li ><a href="index.html"><i class="fa fa-map-marked-alt text-theme-color"></i> home page</a></li>
-//                             <li><a href="about.html"><i class="fa fa-book text-theme-color"></i> about</a></li>
-//                             <li><a href="oficii-birouri-cadastru.html"><i class="fa fa-building text-theme-color"></i> Oficii si birouri de cadastru</a></li>
-//                             <li><a href="localizare.html"><i class="fa fa-map-marker text-theme-color"></i>Localizare teren</a></li>
-//                             <li><a href="parerile-clientilor.html"><i class="fa fa-comment text-theme-color"></i> Parerile clientilor</a></li>
-//                         </ul>
-//                     </div>
-//
-//                     <div class="col-lg-4 sm-margin-30px-bottom">
-//
-//                         <ul class="col-list">
-//                             <li><a href="inscriere-firme.html"><i class="fa fa-user-plus text-theme-color"></i> Inscriere firma / PFA</a></li>
-//                             <li><a href="cauta-firma.html"><i class="fa fa-search text-theme-color"></i> Cauta firma / PFA</a></li>
-//                             <li><a href="termeni-conditii.html"><i class="fa fa-info-circle text-theme-color"></i> Termeni si conditii</a></li>
-//                             <li><a href="politica-de-confidentialitate.html"><i class="fa fa-info-circle text-theme-color"></i> Politica de confidentialitate</a></li>
-//                             <li><a href="politica-cookies.html"><i class="fa fa-info-circle text-theme-color"></i> Politica Cookies</a></li>
-//                         </ul>
-//                     </div>
-//
-//                     <div class="col-lg-4 sm-margin-30px-bottom">
-//
-//                         <ul class="col-list">
-//                             <li><a href="http://www.ancpi.ro/" target="_blank"><i class="fa fa-globe text-theme-color"></i> ANCPI</a></li>
-//                             <li><a href="http://geoportal.ancpi.ro/geoportal/imobile/Harta.html" target="_blank"><i class="fa fa-globe text-theme-color"></i> Geoportal ANCPI (Harta)</a></li>
-//                             <li><a href="http://epay.ancpi.ro/epay/SelectProd.action?prodId=1420" target="_blank"><i class="fa fa-globe text-theme-color"></i> Extras carte funciara online</a></li>
-//                             <li><a href="http://www.topo-online.ro/" target="_blank"><i class="fa fa-globe text-theme-color" ></i> Topo-Online</a></li>
-//                             <li><a href="https://old-rtk.topo-service.ro/" target="_blank"><i class="fa fa-globe text-theme-color"></i> Statii Permanente GPS</a></li>
-//                         </ul>
-//                     </div>
-//
-//                 </div>
-//
-//             </div>
-//         </div>
-//
-//
-// `;
-//
-//
-// class FooterCard extends HTMLElement {
-//     constructor() {
-//         super();
-//         this.attachShadow({mode: 'open'});
-//         this.shadowRoot.appendChild(template.content.cloneNode(true));
-//         // this.shadowRoot.querySelector('h6').innerText = this.getAttribute('title');
-//     }
-// }
-//
-// window.customElements.define('footer-card', FooterCard);
-
-// import {linkOficii} from "./data/oficiiCadastru/oficiiCadstruMain";
-
-let linkOficii = document.getElementById("test")
-let ceva;
+// let linkOficii = document.getElementById("test")
+// const birouriCadastruRomania = document.getElementById("birouriCadastruRomania")
+// console.log(birouriCadastruRomania)
 // =========================== async await
 // const getOficii = async () =>{
 //    const response = await fetch("./data/oficiiCadastruJudete.json");
@@ -438,54 +293,37 @@ let ceva;
 // =======================
 
 
-// =============================
-fetch("./data/oficiiCadastruJudete.json")
-    .then((response)=>{
-        return  response.json()
-         console.log("resolve", response)
-     }).then(data=>{
-    // const values = Object.entries(data)
-    // console.log(values)
-    linkOficii.innerHTML =data.sentence.map((item)=>{
-        return `<p>${item}</p>`
-    })
-
-}).catch((err)=>{
-    console.log("reject", err)})
-// =============================
-// const birouriCadastru = data.map((item)=>{
-//     const {judet, adresa, coordonate, telefon, email, fax, website, programAutorizati, programPublic} = item;
-//     console.log(item)
-//     return `
-//
+// ============================= oficiu cadastru judete
+// fetch("./data/oficiiCadastruJudete.json")
+//     .then((response)=>{
+//         return  response.json()
+//          console.log("resolve", response)
+//      }).then(data=>{
+//     // console.log(data)
+//     linkOficii.innerHTML =data.map((item)=>{
+//         const {judet, adresa, coordonate, telefon, email, fax, website, programAutorizati, programPublic, link} = item;
+//         return `
 //             <div class="container" >
 //             <div class="listing-detail margin-50px-bottom sm-margin-35px-bottom">
 //                 <h3 class="font-weight-900 border-bottom text-center">Oficii si birouri de cadastru din judetul
 //                     <code>${judet}</code></h3>
 //             </div>
-//
-//
 //             <div class="margin-10px-bottom">
-//                 <a href="#" class="font-weight-bold margin-10px-right text-theme-color">
+//                 <a href="${link}" class="font-weight-bold margin-10px-right text-theme-color">
 //                     <i class="fas fa-arrow-alt-circle-right"></i>
 //                     Lista firmelor de cadastru din judetul ${judet}</a>
 //             </div>
 //             <div><h6>
-//
 //                 Oficiul de cadastru si publicitate imobiliara ${judet}
 //             </h6></div>
 //             <div class="row">
-//
-//
 //                 <div class="col-lg-8 margin-10px-bottom pt-1">
-//
-//                     <table class="table table-hover table-bordered table-responsive-sm">
+//                     <table class="table table-hover table-bordered">
 //                         <thead>
 //                         <tr class="bg-light-gray">
 //                             <td colspan="2"><i class="fa fa-address-book margin-10px-right text-theme-color padding-25px-left"
 //                                    aria-hidden="true"></i>Date de contact
 //                             </td>
-//
 //                         </tr>
 //                         </thead>
 //                         <tbody>
@@ -497,7 +335,6 @@ fetch("./data/oficiiCadastruJudete.json")
 //                                 </a>
 //                             </td>
 //                         </tr>
-//
 //                         <tr>
 //                             <td class="pl-3">Telefon</td>
 //                             <td class="pl-3"> ${telefon}</td>
@@ -517,54 +354,98 @@ fetch("./data/oficiiCadastruJudete.json")
 //                         </tbody>
 //                     </table>
 //                 </div>
-//
 //                 <div class="col-lg-4 pt-1">
 //                     <table class="table table-hover table-bordered">
+//                          <tr class="bg-light-gray">
+//                              <th scope="row"><i class="fas fa-calendar-alt padding-20px-left text-theme-color"
+//                                                 aria-hidden="true"></i>
+//                              </th>
+//                              <td class="pl-3"><b>Public</b></td>
+//                              <td class="pl-3"><b>Autorizati</b></td>
+//                          </tr>
+//                          <tr>
+//                              <th scope="row" class="pl-3">Luni</th>
+//                              <td class="pl-3">${programPublic.luni}</td>
+//                              <td class="pl-3">${programAutorizati.luni}</td>
+//                          </tr>
+//                          <tr>
+//                              <th scope="row" class="pl-3">Marti</th>
+//                              <td class="pl-3">${programPublic.marti}</td>
+//                              <td class="pl-3">${programAutorizati.marti}</td>
+//                          </tr>
+//                          <tr>
+//                              <th scope="row" class="pl-3">Miercuri</th>
+//                              <td class="pl-3">${programPublic.miercuri}</td>
+//                              <td class="pl-3">${programAutorizati.miercuri}</td>
+//                          </tr>
+//                          <tr>
+//                              <th scope="row" class="pl-3">Joi</th>
+//                              <td class="pl-3">${programPublic.joi}</td>
+//                              <td class="pl-3">${programAutorizati.joi}</td>
+//                          </tr>
+//                          <tr>
+//                              <th scope="row" class="pl-3">Vineri</th>
+//                              <td class="pl-3">${programPublic.vineri}</td>
+//                              <td class="pl-3">${programAutorizati.vineri}</td>
+//                          </tr>
+//                      </table>
+//                  </div>
+//              </div>
+//          </div>
+//          `
+//     }).join("")
+//      }).catch((err)=>{
+//     console.log("reject", err)})
+// =============================
+
+// oficii birouri cadastru judete eroare ciudata dar merge
+// fetch("https://jsonplaceholder.typicode.com/todos")
+//     .then((response)=>{
+//         return response.json()
+//     }).then((data)=>{
+//         let someThing = data.map((item)=>{
+//             const {userId, title} = item;
+//             // console.log(item)
+//             return `
+//                <div class="col-lg-10 margin-50px-bottom center-col">
+//                     <div class="listing-detail margin-10px-bottom sm-margin-35px-bottom">
+//                         <h6 class="font-weight-400 pl-4"><a href="oficiu-cadastru.html"
+//                                                        class="margin-10px-right text-theme-color">
+//                             <i class="fas fa-home  text-theme-color"></i>
+//                             Oficiul de cadastru si publicitate imobiliara
+//                             ${title}</a></h6>
+//                     </div>
+//                     <table class="table table-hover table-bordered table-responsive-sm">
+//                         <tbody>
 //                         <tr class="bg-light-gray">
-//                             <th scope="row"><i class="fas fa-calendar-alt padding-20px-left text-theme-color"
-//                                                aria-hidden="true"></i>
-//                             </th>
-//                             <td class="pl-3"><b>Public</b></td>
-//                             <td class="pl-3"><b>Autorizati</b></td>
-//
+//                             <th class="pl-3">Birou</th>
+//                             <td class="text-center"><b>Adresa</b></td>
 //                         </tr>
 //                         <tr>
-//                             <th scope="row" class="pl-3">Luni</th>
-//                             <td class="pl-3">${programPublic.luni}</td>
-//                             <td class="pl-3">${programAutorizati.luni}</td>
-//
+//                             <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
+//                             <td class="pl-3">${title}</td>
 //                         </tr>
-//                         <tr>
-//                             <th scope="row" class="pl-3">Marti</th>
-//                             <td class="pl-3">${programPublic.marti}</td>
-//                             <td class="pl-3">${programAutorizati.marti}</td>
-//
+//                           <tr>
+//                             <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
+//                             <td class="pl-3">${title}</td>
 //                         </tr>
-//                         <tr>
-//                             <th scope="row" class="pl-3">Miercuri</th>
-//                             <td class="pl-3">${programPublic.miercuri}</td>
-//                             <td class="pl-3">${programAutorizati.miercuri}</td>
-//
+//                           <tr>
+//                             <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
+//                             <td class="pl-3">${title}</td>
 //                         </tr>
-//                         <tr>
-//                             <th scope="row" class="pl-3">Joi</th>
-//                             <td class="pl-3">${programPublic.joi}</td>
-//                             <td class="pl-3">${programAutorizati.joi}</td>
-//
+//                           <tr>
+//                             <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
+//                             <td class="pl-3">${title}</td>
 //                         </tr>
-//                         <tr>
-//                             <th scope="row" class="pl-3">Vineri</th>
-//                             <td class="pl-3">${programPublic.vineri}</td>
-//                             <td class="pl-3">${programAutorizati.vineri}</td>
-//
+//                           <tr>
+//                             <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
+//                             <td class="pl-3">${title}</td>
 //                         </tr>
+//
+//                         </tbody>
 //                     </table>
 //                 </div>
-//             </div>
-//
-//
-//         </div>
-//         `
-//
+//             `
+//         }).join("")
+//     birouriCadastruRomania.innerHTML = someThing
 // })
-// linkOficii.innerHTML = birouriCadastru

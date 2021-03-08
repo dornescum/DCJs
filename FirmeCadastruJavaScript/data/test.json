@@ -1,0 +1,26 @@
+{
+  "judete":[
+    {
+      "judet":"Alba",
+      "id":1,
+      "birouri":[
+        { "megidia1":"calea luinga 441"  },
+        { "megidia2":"calea luinga 442"  },
+        { "megidia3":"calea luinga 443"  },
+        { "megidia4":"calea luinga 444"  },
+        { "megidia5":"calea luinga 445"  }
+      ]
+    },
+    {
+      "judet":"Arad",
+      "id":2,
+      "birouri":[
+        { "bacau1":"calea luinga 441"  },
+        { "bacau2":"calea luinga 442"  },
+        { "bacau3":"calea luinga 443"  },
+        { "bacau4":"calea luinga 444"  },
+        { "bacau5":"calea luinga 445"  }
+      ]
+    }
+  ]
+}

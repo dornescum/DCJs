@@ -1,0 +1,29 @@
+[
+  {
+    "judet": "Alba",
+    "orase": [
+      {
+        "municipiu": "campina",
+        "adresa": "starda ceva"
+      },
+      {
+        "municipiu":"braila" ,
+        "adresa": "starda ceva"
+      }
+    ]
+  },
+  {
+    "judet": "Arad",
+    "orase": [
+      {
+        "municipiu": "panciu",
+        "adresa": "starda ceva"
+      },
+      {
+        "municipiu": "focsani",
+        "adresa": "starda ceva"
+      }
+    ]
+  }
+
+  ]
