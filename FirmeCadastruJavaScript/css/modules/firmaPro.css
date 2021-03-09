@@ -1,0 +1,14 @@
+.firma-foto{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 15rem;
+    width: 100%;
+    cursor: pointer;
+}
+.hiddenEl{
+   opacity: 0.1;
+}
+.hiddenEl:hover{
+    opacity: 1;
+}
