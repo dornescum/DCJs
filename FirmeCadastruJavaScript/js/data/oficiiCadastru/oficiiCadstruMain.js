@@ -105,3 +105,7 @@ fetch("./data/oficiiCadastruJudete.json")
 
 
 // export default linkOficii
+
+var str = "Hello world, welcome to the universe. mam";
+var n = str.includes("mama");
+console.log(n)

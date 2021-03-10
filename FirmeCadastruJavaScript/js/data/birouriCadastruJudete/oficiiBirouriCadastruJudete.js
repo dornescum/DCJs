@@ -1,9 +1,9 @@
-fetch("https://jsonplaceholder.typicode.com/todos")
+fetch("./data/oficiiBirouriCadastru.json")
     .then((response)=>{
         return response.json()
     }).then((data)=>{
     let someThing = data.map((item)=>{
-        const {userId, title} = item;
+        const {judet, oras, adresa} = item;
         // console.log(item)
         return `
                <div class="col-lg-10 margin-50px-bottom center-col">
@@ -12,7 +12,7 @@ fetch("https://jsonplaceholder.typicode.com/todos")
                                                        class="margin-10px-right text-theme-color">
                             <i class="fas fa-home  text-theme-color"></i>
                             Oficiul de cadastru si publicitate imobiliara
-                            ${title}</a></h6>
+                            ${judet}</a></h6>
                     </div>
                     <table class="table table-hover table-bordered table-responsive-sm">
                         <tbody>
@@ -21,24 +21,24 @@ fetch("https://jsonplaceholder.typicode.com/todos")
                             <td class="text-center"><b>Adresa</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
-                            <td class="pl-3">${title}</td>
+                            <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
+                            <td class="pl-3">${adresa}</td>
                         </tr>
                           <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
-                            <td class="pl-3">${title}</td>
+                            <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
+                            <td class="pl-3">${adresa}</td>
                         </tr>
                           <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
-                            <td class="pl-3">${title}</td>
+                            <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
+                            <td class="pl-3">${adresa}</td>
                         </tr>
                           <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
-                            <td class="pl-3">${title}</td>
+                            <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
+                            <td class="pl-3">${adresa}</td>
                         </tr>
                           <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${userId}</a></td>
-                            <td class="pl-3">${title}</td>
+                            <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
+                            <td class="pl-3">${adresa}</td>
                         </tr>
 
                         </tbody>
