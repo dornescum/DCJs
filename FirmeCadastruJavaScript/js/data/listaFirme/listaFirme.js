@@ -1,6 +1,7 @@
 const listaFirme = document.getElementById("lista-firme");
 const firmeSilver = document.getElementById("firmeSilver");
-console.log(firmeSilver)
+const firmeFree = document.getElementById("firmeFree")
+console.log(firmeFree)
 // pro
 fetch("./data/firme/listaFirme.json")
 .then((response)=>{
@@ -116,7 +117,7 @@ fetch("./data/firme/listaFirmeSilver.json")
                                                 ${desc}
                                             </p>
                                             <div class="row justify-content-end">
-                                                <button class="butn text-lowercase">
+                                                <button class="butn text-lowercase margin-10px-right">
                                                     <i class="fa fa-envelope"></i> ${email}
                                                 </button>
                                             </div>
@@ -129,4 +130,25 @@ fetch("./data/firme/listaFirmeSilver.json")
     })
     firmeSilver.innerHTML = firme;
     console.log(firmeSilver)
+})
+// free
+fetch("./data/firme/listaFirmeFree.json")
+.then((response)=>{
+    return response.json();
+}).then((data)=>{
+    console.log(data)
+    const firme = data.map((item)=>{
+        const { nume} = item;
+        return `
+             
+
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="card card-1 text-lg-center">
+                            <a class="font-size14 text-uppercase" href="firma-standard.html">${nume}</a>   
+                        </div>
+                    </div>
+        `
+    }).join(" ")
+    firmeFree.innerHTML = firme;
+    console.log(firmeFree)
 })
