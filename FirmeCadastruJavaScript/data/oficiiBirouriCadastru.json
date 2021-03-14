@@ -2,15 +2,30 @@
 
   {
     "judet": "Alba",
-    "oras": "braila",
-    "adresa": "starda ceva"
+    "orase": [
+      {
+        "oras": "braila",
+        "adresa": "starda ceva"
+      },
+       {
+        "oras": "bacau",
+        "adresa": "starda altceva"
+      }
+    ]
   },
-   {
-    "judet": "Alba",
-    "oras": "campina",
-    "adresa": "starda ceva"
+ {
+    "judet": "Bacau",
+    "orase": [
+      {
+        "oras": "buhusi",
+        "adresa": "starda ceva"
+      },
+       {
+        "oras": "barlad",
+        "adresa": "starda altceva"
+      }
+    ]
   }
-
 ]
 
 

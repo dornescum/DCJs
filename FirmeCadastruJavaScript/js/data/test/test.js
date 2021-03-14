@@ -27,22 +27,7 @@ const renderPosts = async () => {
                             <td class="pl-3"><a href="#" class="font-weight-bold">${post.title}</a></td>
                             <td class="pl-3">${post.likes}</td>
                         </tr>
-                          <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${post.title}</a></td>
-                            <td class="pl-3">${post.likes}</td>
-                        </tr>
-                          <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${post.title}</a></td>
-                            <td class="pl-3">${post.likes}</td>
-                        </tr>
-                          <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${post.title}</a></td>
-                            <td class="pl-3">${post.likes}</td>
-                        </tr>
-                          <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${post.title}</a></td>
-                            <td class="pl-3">${post.likes}</td>
-                        </tr>
+                       
 
                         </tbody>
                     </table>

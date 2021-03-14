@@ -3,8 +3,9 @@ fetch("./data/oficiiBirouriCadastru.json")
         return response.json()
     }).then((data)=>{
     let someThing = data.map((item)=>{
-        const {judet, oras, adresa} = item;
-        // console.log(item)
+        const {judet, oras, adresa, orase} = item;
+        // console.log(judet)
+        // console.log(orase)
         return `
                <div class="col-lg-10 margin-50px-bottom center-col">
                     <div class="listing-detail margin-10px-bottom sm-margin-35px-bottom">
@@ -24,23 +25,7 @@ fetch("./data/oficiiBirouriCadastru.json")
                             <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
                             <td class="pl-3">${adresa}</td>
                         </tr>
-                          <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
-                            <td class="pl-3">${adresa}</td>
-                        </tr>
-                          <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
-                            <td class="pl-3">${adresa}</td>
-                        </tr>
-                          <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
-                            <td class="pl-3">${adresa}</td>
-                        </tr>
-                          <tr>
-                            <td class="pl-3"><a href="#" class="font-weight-bold">${oras}</a></td>
-                            <td class="pl-3">${adresa}</td>
-                        </tr>
-
+                      
                         </tbody>
                     </table>
                 </div>
