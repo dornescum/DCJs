@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="520c8f46-6ae8-40f1-aa81-0f3df120add1" name="Default Changelist" comment="oficii birouri main  async await mock data">
-      <change afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/js/data/login/login.js" afterDir="false" />
+    <list default="true" id="520c8f46-6ae8-40f1-aa81-0f3df120add1" name="Default Changelist" comment="login error not finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/js/data/oficiiCadastru/oficiiCadstruMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/js/data/oficiiCadastru/oficiiCadstruMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/oficiu-cadastru.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/oficiu-cadastru.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,8 @@
       <workItem from="1620659847800" duration="1788000" />
       <workItem from="1620661659349" duration="294000" />
       <workItem from="1620661958812" duration="1653000" />
+      <workItem from="1620673029068" duration="1789000" />
+      <workItem from="1620674837234" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="oficii birouri cadastru judete async await mock data">
       <created>1620655364991</created>
@@ -74,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620659479044</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="login error not finished">
+      <created>1620673057895</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620673057895</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="oficii birouri cadastru judete async await mock data" />
     <MESSAGE value="oficii birouri main  async await mock data" />
-    <option name="LAST_COMMIT_MESSAGE" value="oficii birouri main  async await mock data" />
+    <MESSAGE value="login error not finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="login error not finished" />
   </component>
 </project>

@@ -115,8 +115,10 @@ const getInfoBi = async ()=>{
 
 getInfoBi().then((data)=>{
     console.log(data)
+
     linkOficii.innerHTML =data.map((item)=>{
-        const {country, adress, phone, email, town, link} = item;
+        const {country, adress, phone, email, town, id, link} = item;
+
         return `
             <div class="container" >
             <div class="listing-detail margin-50px-bottom sm-margin-35px-bottom">
@@ -159,8 +161,8 @@ getInfoBi().then((data)=>{
                             <td class="pl-3"><a href="" class="text-theme-color"> ${email}</a></td>
                         </tr>
                         <tr>
-                            <td class="pl-3">Fax</td>
-                            <td class="pl-3">${email}</td>
+                            <td class="pl-3">Id</td>
+                            <td class="pl-3">${id}</td>
                         </tr>
                         <tr>
                             <td class="pl-3">Website</td>
@@ -208,5 +210,19 @@ getInfoBi().then((data)=>{
              </div>
          </div>
          `
-    }).join("")
+    }).join('')
+    console.log(linkOficii)
 }).catch(err => console.log(err))
+
+
+// const paginate =(el)=>{
+//     const numberPerPage =10;
+//     const numberOfPages =Math.ceil(el.length / numberPerPage)
+//     const newEl = Array.from({length: numberOfPages}, (_index)=>{
+//         const start = _index * numberPerPage;
+//         return el.slice(start, start+numberPerPage)
+//     })
+//     return newEl;
+// }
+
+
