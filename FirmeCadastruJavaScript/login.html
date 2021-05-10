@@ -381,7 +381,8 @@
                 <div class="col-lg-6 center-col">
                     <div class="padding-40px-all sm-padding-25px-all shadow-box border-radius-4">
                         <h3 class="text-center margin-40px-bottom grey-color">Login</h3>
-                        <form method="post" action="#!">
+                        <div id="errorLogin"></div>
+                        <form method="post" action="#!" id="form-login">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
@@ -411,7 +412,7 @@
                             </div>
 
                             <div class="col-md-12 margin-25px-top">
-                                <button type="button" class="butn btn-block">Login</button>
+                                <button type="button" class="butn btn-block" id="loginBtn">Login</button>
                             </div>
 
                             <div class="col-md-12 text-center margin-25px-top">
@@ -513,13 +514,13 @@
 <script src="js/jquery.min.js"></script>
 
 <!-- modernizr js -->
-<script src="js/modernizr.js"></script>
+<!--<script src="js/modernizr.js"></script>-->
 
 <!-- bootstrap -->
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Serch -->
-<script src="search/search.js"></script>
+<!--<script src="search/search.js"></script>-->
 
 <!-- navigation -->
 <script src="js/nav-menu.js"></script>
@@ -549,16 +550,16 @@
 <script src="js/ion.rangeSlider.min.js"></script>
 
 <!-- datepicker -->
-<script src="js/datepicker.min.js"></script>
+<!--<script src="js/datepicker.min.js"></script>-->
 
 <!-- jquery validation -->
-<script src="js/jquery.validate.min.js"></script>
+<!--<script src="js/jquery.validate.min.js"></script>-->
 
 <!-- jquery wizard -->
 <script src="js/jquery.bootstrap.wizard.min.js"></script>
 
 <!-- form-wizard -->
-<script src="js/form-wizard.js"></script>
+<!--<script src="js/form-wizard.js"></script>-->
 
 <!--  clipboard js -->
 <script src="js/clipboard.min.js"></script>
@@ -567,6 +568,8 @@
 <script src="js/prism.js"></script>
 
 <!-- custom scripts -->
+<script src="js/data/login/login.js"></script>
+
 <script src="js/main.js"></script>
 
 <!-- all js include end -->
