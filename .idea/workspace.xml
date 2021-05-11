@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="520c8f46-6ae8-40f1-aa81-0f3df120add1" name="Default Changelist" comment="slice">
+    <list default="true" id="520c8f46-6ae8-40f1-aa81-0f3df120add1" name="Default Changelist" comment="filter">
+      <change afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/search/login_test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/js/data/listaFirme/listaFirme.js" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/js/data/listaFirme/listaFirme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/js/data/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/js/data/login/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/js/data/oficiiCadastru/oficiiCadstruMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/js/data/oficiiCadastru/oficiiCadstruMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/listaFirme.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/listaFirme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/oficiu-cadastru.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/oficiu-cadastru.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -27,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,7 +62,12 @@
       <workItem from="1620673029068" duration="1789000" />
       <workItem from="1620674837234" duration="933000" />
       <workItem from="1620714670895" duration="1700000" />
-      <workItem from="1620716557611" duration="768000" />
+      <workItem from="1620716557611" duration="1793000" />
+      <workItem from="1620718367965" duration="1725000" />
+      <workItem from="1620723233947" duration="1880000" />
+      <workItem from="1620733351915" duration="16000" />
+      <workItem from="1620743992059" duration="1531000" />
+      <workItem from="1620749771751" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="oficii birouri cadastru judete async await mock data">
       <created>1620655364991</created>
@@ -92,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620675711399</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="filter">
+      <created>1620717344829</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620717344829</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +134,7 @@
     <MESSAGE value="oficii birouri main  async await mock data" />
     <MESSAGE value="login error not finished" />
     <MESSAGE value="slice" />
-    <option name="LAST_COMMIT_MESSAGE" value="slice" />
+    <MESSAGE value="filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter" />
   </component>
 </project>

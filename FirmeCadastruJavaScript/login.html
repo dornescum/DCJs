@@ -421,6 +421,18 @@
                             </div>
 
                         </form>
+                        <form action="" id="form">
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" >
+                            </div>
+                            <div>
+                                <label for="password2">Password</label>
+                                <input type="text" id="password2" name="password" >
+                            </div>
+                            <button type="submit">Submit</button>
+                            <p id="error"></p>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -510,6 +522,28 @@
 
 <!-- all js include start -->
 
+<script>
+    const name = document.getElementById('name');
+    const password = document.getElementById('password2');
+    const error = document.getElementById('error');
+    const form = document.getElementById('form');
+    form.addEventListener("submit", (e)=>{
+        let messages = [];
+        if (name.value === ''|| name.value === null){
+            messages.push("more words")
+        }
+        if ( name.value.length > 10){
+            messages.push("to much")
+        }
+        if (messages.length>0){
+            e.preventDefault();
+            error.innerHTML = messages.join(',')
+        }
+
+    })
+</script>
+
+
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
 
@@ -568,9 +602,10 @@
 <script src="js/prism.js"></script>
 
 <!-- custom scripts -->
+<script src="js/main.js"></script>
+
 <script src="js/data/login/login.js"></script>
 
-<script src="js/main.js"></script>
 
 <!-- all js include end -->
 

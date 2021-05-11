@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" id="form">
+  <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" >
+  </div>
+   <div>
+    <label for="password3">Password</label>
+    <input type="text" id="password2" name="password" >
+  </div>
+  <button type="submit">Submit</button>
+  <p id="error"></p>
+</form>
+
+<script>
+   const name = document.getElementById('name');
+   const password = document.getElementById('password2');
+   const error = document.getElementById('error');
+   const form = document.getElementById('form');
+   form.addEventListener("submit", (e)=>{
+     let messages = [];
+     if (name.value === ''|| name.value === null){
+       messages.push("test")
+     }
+     if ( name.value.length > 10){
+       messages.push("to much")
+     }
+     if (messages.length>0){
+       e.preventDefault();
+        error.innerHTML = messages.join(',')
+     }
+
+   })
+</script>
+</body>
+</html>

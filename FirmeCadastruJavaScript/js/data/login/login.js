@@ -18,7 +18,7 @@ console.log(formLogin)
 //     }
 // })
 
-loginBtn.addEventListener('click', (e) => {
+loginBtn.addEventListener('submit', (e) => {
     let messages = []
     if (name.value === ' ') {
         messages.push('Name is required')
