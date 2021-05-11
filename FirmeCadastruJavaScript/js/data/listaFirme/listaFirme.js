@@ -141,17 +141,30 @@ fetch("./data/firme/listaFirmeFree.json")
     const firme = data.map((item)=>{
         const { nume} = item;
         return `
-             
+
 
                     <div class="col-lg-4 col-md-6 col-xs-12">
                         <div class="card card-1 text-lg-center">
-                            <a class="font-size14 text-uppercase" href="firma-standard.html">${nume}</a>   
+                            <a class="font-size14 text-uppercase" href="firma-standard.html">${nume}</a>
                         </div>
                     </div>
         `
     }).join(" ")
-    firmeFree.innerHTML = firme;
-    console.log(firmeFree)
+    const firmeFilter = data.filter((item)=>{
+        return item.nume === "Nume firma free 2"
+
+    })
+
+
+    // firmeFree.innerHTML = firmeFilter[0].nume;
+    testLista.innerHTML = `
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="card card-1 text-lg-center">
+                            <a class="font-size14 text-uppercase" href="firma-standard.html">${firmeFilter[0].nume}</a>
+                        </div>
+                    </div>
+        `;
+    console.log(firmeFilter)
 })
 // test
 // fetch("./data/firme/test.json")

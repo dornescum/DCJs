@@ -114,9 +114,8 @@ const getInfoBi = async ()=>{
 }
 
 getInfoBi().then((data)=>{
-    console.log(data)
 
-    linkOficii.innerHTML =data.map((item)=>{
+   linkOficii.innerHTML =data.map((item)=>{
         const {country, adress, phone, email, town, id, link} = item;
 
         return `
@@ -211,8 +210,10 @@ getInfoBi().then((data)=>{
          </div>
          `
     }).join('')
-    console.log(linkOficii)
+
+
 }).catch(err => console.log(err))
+
 
 
 // const paginate =(el)=>{
