@@ -32,6 +32,12 @@
         .input-test{
             border-radius: 5px;
         }
+        .error-test{
+            border: 1px solid red;
+            width: 90%;
+            margin: 1rem auto;
+            border-radius: 5px;
+        }
 
     </style>
 </head>
@@ -387,58 +393,20 @@
                     <div class="padding-40px-all sm-padding-25px-all shadow-box border-radius-4">
                         <h3 class="text-center margin-40px-bottom grey-color">Login</h3>
                         <div id="errorLogin"></div>
-                        <form method="post" action="#!" id="form-login">
-<!--                            <div class="row">-->
-<!--&lt;!&ndash;                                <div class="col-md-12">&ndash;&gt;-->
-<!--&lt;!&ndash;                                    <div class="form-group">&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <input class="form-control" type="text" name="username" id="username"&ndash;&gt;-->
-<!--&lt;!&ndash;                                               required="required" placeholder="Nume" maxlength="70">&ndash;&gt;-->
-<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                <div class="col-12">&ndash;&gt;-->
-<!--&lt;!&ndash;                                    <div class="form-group">&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <input class="form-control" type="password" name="password" id="password"&ndash;&gt;-->
-<!--&lt;!&ndash;                                               required="required" placeholder="Parola" maxlength="70">&ndash;&gt;-->
-<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
-<!--                            </div>-->
-
-<!--                            <div class="row">-->
-<!--                                <div class="col-sm-6 mb-2">-->
-<!--                                    <div class="custom-control custom-checkbox text-left">-->
-<!--                                        <input type="checkbox" class="custom-control-input" id="login-remember">-->
-<!--                                        <label class="custom-control-label" for="login-remember">Tine-ma minte</label>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="col-sm-6 text-left text-sm-right">-->
-<!--                                    <a href="resetare.html">Ai uitat parola?</a>-->
-<!--                                </div>-->
-
-<!--                            </div>-->
-
-<!--                            <div class="col-md-12 margin-25px-top">-->
-<!--                                <button type="button" class="butn btn-block" id="loginBtn">Login</button>-->
-<!--                            </div>-->
-
-<!--                            <div class="col-md-12 text-center margin-25px-top">-->
-<!--                                <span>Esti firma/PFA ce activezi in domeniul cadastrului si nu ai cont pe acest site?-->
-<!--                                    <a href="inscriere-firme.html">Inregistreaza-te aici!</a></span>-->
-<!--                            </div>-->
-
-                        </form>
                         <form action="" id="form">
                             <div>
                                 <label for="name">Name</label>
-                                <input type="text" id="name" name="name" class="input-test">
+                                <input type="text" id="name" name="name" class="input-test" required>
                             </div>
                             <div>
                                 <label for="password2">Password</label>
-                                <input type="text" id="password2" name="password"  class="input-test" >
+                                <input type="text" id="password2" name="password"  class="input-test"  required>
                             </div>
                             <div class="col-md-12 margin-25px-top">
                             <button type="submit" class="butn btn-block">Submit</button>
                             </div>
                             <p id="error"></p>
+                            <p id="errorPasswd"></p>
                         </form>
 
                         <div class="row">
@@ -555,19 +523,20 @@
     const name = document.getElementById('name');
     const password = document.getElementById('password2');
     const error = document.getElementById('error');
+    const errorPasswd = document.getElementById('errorPasswd');
     const errorLogin = document.getElementById('errorLogin');
     const form = document.getElementById('form');
     form.addEventListener("submit", (e)=>{
         let messages = [];
+        let errorsPasswd =[];
         if (name.value === ''|| name.value === null){
             name.style.background ='lightPink'
-
             messages.push("more words")
         }
-        if ( name.value.length < 3){
-            messages.push("much more words please...")
-            name.style.background ='lightBlue'
-        }
+        // if ( name.value.length < 3){
+        //     messages.push("much more words please...")
+        //     name.style.background ='lightBlue'
+        // }
 
         if ( name.value.length > 10){
             messages.push("to much")
@@ -575,10 +544,20 @@
         }
         if (messages.length>0){
             e.preventDefault();
-            error.innerHTML = messages.join(',')
-            error.style.backgroundColor = 'red';
-            error.style.paddingTop = '2rem'
+            error.innerHTML = messages.join(',');
+            error.classList.add('error-test');
         }
+        if (password.value.length<3 ||password.value ===''){
+            errorsPasswd.push("min 3")
+        }
+
+        if (errorsPasswd.length>0){
+            errorPasswd.innerHTML = errorsPasswd.join(',')
+            // errorPasswd.classList.add('error-test');
+            errorsPasswd.style.backgroundColor ='red'
+            e.preventDefault();
+        }
+        e.preventDefault();
 
     })
 </script>

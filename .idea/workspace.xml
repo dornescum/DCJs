@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="520c8f46-6ae8-40f1-aa81-0f3df120add1" name="Default Changelist" comment="login error">
+    <list default="true" id="520c8f46-6ae8-40f1-aa81-0f3df120add1" name="Default Changelist" comment="login error add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirmeCadastruJavaScript/search/login_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirmeCadastruJavaScript/search/login_test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,9 @@
       <workItem from="1620733351915" duration="16000" />
       <workItem from="1620743992059" duration="1531000" />
       <workItem from="1620749771751" duration="948000" />
-      <workItem from="1620827809035" duration="1612000" />
+      <workItem from="1620827809035" duration="3004000" />
+      <workItem from="1620831954557" duration="19000" />
+      <workItem from="1620849019427" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="oficii birouri cadastru judete async await mock data">
       <created>1620655364991</created>
@@ -113,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620750611160</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="login error add">
+      <created>1620829574716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620829574716</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +148,7 @@
     <MESSAGE value="slice" />
     <MESSAGE value="filter" />
     <MESSAGE value="login error" />
-    <option name="LAST_COMMIT_MESSAGE" value="login error" />
+    <MESSAGE value="login error add" />
+    <option name="LAST_COMMIT_MESSAGE" value="login error add" />
   </component>
 </project>
